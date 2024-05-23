@@ -1,0 +1,51 @@
+section{
+    margin-top: 100px;
+}
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: greenyellow;
+    margin: 20px;
+}
+div:nth-of-type(2n) {
+    background-color: bisque; 
+   
+}
+div:nth-of-type(4n) {
+    background-color: yellow;
+}
+
+#one{
+    transform: rotate(90deg);
+}
+
+#two{
+    transform: scale(1.5);
+}
+#three{
+    transform: skew(45deg) rotate(30deg);
+  
+}
+
+#myclass{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background-color: red;
+    box-shadow: 10px 1opx 50px green;
+    box-shadow: 2px 2px 8px yellow;
+}
+
+.rohit{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: greenyellow;
+    margin: auto;
+    background-image: url(city.jpeg);
+    background-size: auto;
+}
